@@ -64,7 +64,7 @@ local originalCFrame = player.Character.HumanoidRootPart.CFrame
 
 task.wait(0.5)
 
-local targetCFrame = CFrame.new(28.0498, 286.7751, -341.5908)
+local targetCFrame = CFrame.new(28.0498, 286.7751, -341.5908) * CFrame.Angles(0, math.rad(180), 0)
 SwimBypassTeleport(targetCFrame)
 
 task.wait(0.5)
